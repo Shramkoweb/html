@@ -19,8 +19,12 @@ body {
 }
 
 a {
+  display: block;
+
   color: #000000;
   text-decoration: none;
+
+  cursor: pointer;
 }
 
 img {
