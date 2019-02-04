@@ -24,10 +24,6 @@
   }
 }
 
-.main-nav__checkbox-more:checked ~ .pop-up .pop-up__list {
-  overflow: overlay;
-}
-
 .main-nav__link {
   &--user {
     width: 32px;
@@ -42,7 +38,7 @@
   }
 
   &--bell {
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0, 0, 0, 0.55);
     border-radius: 50%;
 
     &::before {
@@ -78,6 +74,3 @@
   outline: 2px solid #4d90fe;
 }
 
-.main-nav__checkbox-more:focus ~ .pop-up .pop-up__more {
-  outline: 2px solid #4d90fe;
-}

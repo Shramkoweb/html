@@ -161,8 +161,18 @@
     transform: translateY(-1000px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+.pop-up__checkbox:checked ~ .pop-up__list {
+  overflow: overlay;
+}
+
+
+.pop-up__checkbox:focus ~ .pop-up__more {
+  outline: 2px solid #4d90fe;
 }
