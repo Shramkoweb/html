@@ -150,10 +150,8 @@
   cursor: pointer;
 }
 
-.pop-up__bottom-text {
-  &--less {
-    display: none;
-  }
+.pop-up__bottom-text--less {
+  display: none;
 }
 
 @keyframes slide {
